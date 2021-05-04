@@ -1,9 +1,12 @@
 package someshbose.github.io.springsecurity.model;
 
+import lombok.Getter;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "SP_PRODUCT")
+@Getter
 public class Product {
 
     @Id
